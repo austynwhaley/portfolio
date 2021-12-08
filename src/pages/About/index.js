@@ -31,7 +31,7 @@ function About () {
 
                 <a href="https://github.com/austynwhaley"><img height="100px" width="100px" src={github} alt="github"/></a> 
                 <a href="https://www.linkedin.com/in/austyn-whaley-a820421b5/"><img height="100px" width="100px" src={linkedIn} alt="linkedin"/></a>
-                <a href="/pdf"><img height="100px" width="100px" src={resumeImg} alt="resumeicon"/></a>
+                <a href="/portfolio/#/pdf/"><img height="100px" width="100px" src={resumeImg} alt="resumeicon"/></a>
 
                 <div className="info">
                     <p style={{fontSize: '1.4rem'}}>My Name is Austyn Whaley, I am 27 Years old and I was born in Cincinnati Ohio.</p> 
