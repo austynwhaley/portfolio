@@ -7,8 +7,8 @@ function Navbar() {
         <nav>
             <ul>
             <li><a href="/">Home</a></li>
-            <li><a href="/about">About Me</a></li>
-            <li><a href="/portfolio">Portfolio</a></li>
+            <li><a href="/portfolio/#/about/">About Me</a></li>
+            <li><a href="/portfolio/#/portfolio/">Portfolio</a></li>
             </ul>
         </nav>
     );
