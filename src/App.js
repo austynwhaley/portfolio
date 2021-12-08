@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Route } from 'react-router-dom';
+import { Route} from 'react-router-dom';
 
 //pages
 import Homepage from './pages/Homepage/index'
@@ -15,10 +15,10 @@ class App extends Component{
 
       <div>
         <Route exact path='/' component={Homepage}/>
-        <Route exact path='/portfolio/#/about/' component={About}/>
-        <Route exact path='portfolio/#/portfolio/' component={Portfolio}/>
-        <Route exact path='/portfolio/#/pdf/' component={Pdf}/>
-        <Route exact path="/404" component={NotFound}/>
+        <Route path='/about' component={About}/>
+        <Route path='/portfolio' component={Portfolio}/>
+        <Route path='/pdf' component={Pdf}/>
+        <Route path="/404" component={NotFound}/>
       </div>
 
     ) 
