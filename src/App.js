@@ -16,9 +16,9 @@ class App extends Component{
       <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Switch>
         <Route exact path='/' component={Homepage}/>
-        <Route exact path='/about' component={About}/>
-        <Route exact path='/portfolio' component={Portfolio}/>
-        <Route exact path='/pdf' component={Pdf}/>
+        <Route exact path='/portfolio/about' component={About}/>
+        <Route exact path='/portfolio/portfolio' component={Portfolio}/>
+        <Route exact path='/portfolio/pdf' component={Pdf}/>
         <Route exact path="/404" component={NotFound}/>
         </Switch>
       </BrowserRouter>
