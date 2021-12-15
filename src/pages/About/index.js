@@ -39,7 +39,7 @@ function About () {
                     <p style={{fontSize: '1.4rem'}}>I currently I work at 'LiveShopper Sassie' on the IT team as a Support Developer.</p>
                     <p style={{fontSize: '1.4rem'}}> I've also recently learned blockchain and Web3 development learning smart contracts on Ethereum</p>
                     <p style={{fontSize: '1.4rem'}}> I'm hard working and a dedicated developer constantly looking for new projects, new ideas and opportunities</p>
-                    <p style={{fontSize: '1.4rem'}}> Thanks for reading and interest</p>
+                    <p style={{fontSize: '1.4rem'}}> Thanks for reading!</p>
                 </div>
 
             </section>  
